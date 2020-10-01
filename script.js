@@ -86,8 +86,7 @@ result.addEventListener('click', e => {
 
     if (clickedEl.tagName === 'BUTTON'){
         const artist = clickedEl.getAttribute('data-artist');
-        const songTitle = clickedEl.getAttribute('data-songtitle')
-        ;
+        const songTitle = clickedEl.getAttribute('data-songtitle');
 
         getLyrics(artist, songTitle)
     }
