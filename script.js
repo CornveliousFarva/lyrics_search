@@ -67,3 +67,18 @@ async function getLyrics(artist, songTitle){
     more.innerHTML = '';
 }
 
+//Event listeners
+form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    const searchTerm = search.nodeValue.trim();
+
+    if (!searchTerm){
+        alert('Please enter a search term');
+    } else{
+        searchSongs(searchTerm)
+    }
+})
+
+
+
