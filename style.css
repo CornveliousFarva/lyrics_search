@@ -52,3 +52,23 @@ header *{
 header h1{
     margin: 0 0 30px;
 }
+
+form input{
+    border: 0;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 30px;
+    width: 100%;
+}
+
+form button{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: #e056dd;
+    border: 0;
+    border-radius: 50px;
+    color: #ccc;
+    font-size: 16px;
+    padding: 13px 30px;
+}
